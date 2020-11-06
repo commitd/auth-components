@@ -2,160 +2,156 @@
 
 exports[`renders story 1`] = `
 <DocumentFragment>
-  <div
-    class="MuiBox-root MuiBox-root-3 Styled(MuiBox)-root-1 Styled(MuiBox)-root-2"
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthSm"
   >
-    <main
-      class="MuiContainer-root MuiContainer-maxWidthSm"
+    <div
+      class="MuiBox-root MuiBox-root-3 Styled(MuiBox)-root-1 Styled(MuiBox)-root-2"
     >
-      <div
-        class="MuiBox-root MuiBox-root-5 Styled(MuiBox)-root-1 Styled(MuiBox)-root-4"
+      <form
+        class="Component-root-6 Component-root-7 Component-root-4 Component-root-5"
       >
-        <form
-          class="Component-root-8 Component-root-9 Component-root-6 Component-root-7"
+        <div
+          class="MuiBox-root MuiBox-root-9 Styled(MuiBox)-root-1 Styled(MuiBox)-root-8"
         >
           <div
-            class="MuiBox-root MuiBox-root-11 Styled(MuiBox)-root-1 Styled(MuiBox)-root-10"
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
           >
-            <div
-              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+              for="email"
+              id="email-label"
             >
-              <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
-                data-shrink="true"
-                for="email"
-                id="email-label"
+              Email Address
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
               >
-                Email Address
-                <span
-                  aria-hidden="true"
-                  class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
-                >
-                   *
-                </span>
-              </label>
-              <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                 *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="email"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="email"
+                name="email"
+                required=""
+                type="email"
+                value="jsmith"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
               >
-                <input
-                  aria-invalid="false"
-                  autocomplete="email"
-                  class="MuiInputBase-input MuiOutlinedInput-input"
-                  id="email"
-                  name="email"
-                  required=""
-                  type="email"
-                  value="jsmith"
-                />
-                <fieldset
-                  aria-hidden="true"
-                  class="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-12 PrivateNotchedOutline-legendNotched-13"
                 >
-                  <legend
-                    class="PrivateNotchedOutline-legendLabelled-14 PrivateNotchedOutline-legendNotched-15"
-                  >
-                    <span>
-                      Email Address *
-                    </span>
-                  </legend>
-                </fieldset>
-              </div>
+                  <span>
+                    Email Address *
+                  </span>
+                </legend>
+              </fieldset>
             </div>
           </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-15 Styled(MuiBox)-root-1 Styled(MuiBox)-root-14"
+        >
           <div
-            class="MuiBox-root MuiBox-root-17 Styled(MuiBox)-root-1 Styled(MuiBox)-root-16"
+            aria-describedby="password-contraints"
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
           >
-            <div
-              aria-describedby="password-contraints"
-              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+              for="password"
+              id="password-label"
             >
-              <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
-                data-shrink="true"
-                for="password"
-                id="password-label"
+              Password
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
               >
-                Password
-                <span
-                  aria-hidden="true"
-                  class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
-                >
-                   *
-                </span>
-              </label>
+                 *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="current-password"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                id="password"
+                name="password"
+                required=""
+                type="password"
+                value="password"
+              />
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+                class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
               >
-                <input
-                  aria-invalid="false"
-                  autocomplete="current-password"
-                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
-                  id="password"
-                  name="password"
-                  required=""
-                  type="password"
-                  value="password"
-                />
-                <div
-                  class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                <button
+                  aria-label="toggle password visibility"
+                  class="MuiButtonBase-root MuiIconButton-root WithNoOpener-root-16 WithNoOpener-root-17 MuiIconButton-edgeEnd"
+                  tabindex="0"
+                  type="button"
                 >
-                  <button
-                    aria-label="toggle password visibility"
-                    class="MuiButtonBase-root MuiIconButton-root WithNoOpener-root-18 WithNoOpener-root-19 MuiIconButton-edgeEnd"
-                    tabindex="0"
-                    type="button"
+                  <span
+                    class="MuiIconButton-label"
                   >
-                    <span
-                      class="MuiIconButton-label"
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
                     >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-                <fieldset
-                  aria-hidden="true"
-                  class="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
-                >
-                  <legend
-                    class="PrivateNotchedOutline-legendLabelled-14 PrivateNotchedOutline-legendNotched-15"
-                  >
-                    <span>
-                      Password *
-                    </span>
-                  </legend>
-                </fieldset>
+                      <path
+                        d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
               </div>
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-12 PrivateNotchedOutline-legendNotched-13"
+                >
+                  <span>
+                    Password *
+                  </span>
+                </legend>
+              </fieldset>
             </div>
           </div>
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root-20 Component-root-21 MuiButton-containedPrimary MuiButton-fullWidth"
-            tabindex="0"
-            type="submit"
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root-18 Component-root-19 MuiButton-containedPrimary MuiButton-fullWidth"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
           >
-            <span
-              class="MuiButton-label"
-            >
-              Sign In
-            </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
-          </button>
-        </form>
-      </div>
-    </main>
-  </div>
+            Sign In
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </form>
+    </div>
+  </main>
 </DocumentFragment>
 `;

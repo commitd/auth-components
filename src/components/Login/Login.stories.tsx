@@ -1,7 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Login, LoginProps } from '.'
-import { Box } from '@committed/components'
+import { ThemeProvider } from '@committed/components'
 
 export default {
   title: 'Components/Login',
@@ -10,7 +10,7 @@ export default {
 
 export const Default: React.FC = () => {
   return (
-    <Box p={3} bgcolor="background.paper">
+    <ThemeProvider>
       <Login
         onChangeEmail={() => {}}
         onChangePassword={() => {}}
@@ -18,11 +18,15 @@ export const Default: React.FC = () => {
         password="password"
         onSignIn={() => {}}
       />
-    </Box>
+    </ThemeProvider>
   )
 }
 
-const Template: Story<LoginProps> = (args) => <Login {...args} />
+const Template: Story<LoginProps> = (args) => (
+  <ThemeProvider>
+    <Login {...args} />
+  </ThemeProvider>
+)
 
 export const Primary = Template.bind({})
 Primary.args = {}
