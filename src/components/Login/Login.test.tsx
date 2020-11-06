@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from '../../setupTests'
-import { Primary } from './Example.stories'
+import { Default } from './Login.stories'
 
 it('renders story', () => {
-  const { asFragment } = render(<Primary />)
+  const { asFragment } = render(<Default />)
   expect(asFragment()).toMatchSnapshot()
 })

@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  ignorePatterns: ['setupTests.tsx','*.test.ts*', '*.stories.tsx'],
+  ignorePatterns: ['setupTests.tsx', '*.test.ts*', '*.stories.tsx'],
   extends: [
     // non-ts recommended rules
     'eslint:recommended',
@@ -17,13 +17,14 @@ module.exports = {
     // ts recommended rules that require tsconfig.json to be specified in parserOptions.project
     // can be slow
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'prettier/@typescript-eslint',
-
+    // create-react-app defaults
+    'react-app',
     'plugin:react/recommended',
     'plugin:security/recommended',
     // remove rules covered by prettier
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
+    'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
@@ -113,5 +114,6 @@ module.exports = {
         ],
       },
     ],
+    'react/prop-types': 'off',
   },
 }
