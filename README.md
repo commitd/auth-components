@@ -22,13 +22,13 @@ Install the library from npm. Committed Components and Material UI should also b
 ```
 # yarn
 # install these if you don't have them already
-yarn add @material-ui/core @material-ui/icons @material-ui/lab @committed/auth-components
+yarn add @material-ui/core @material-ui/icons @material-ui/lab @committed/components
 yarn add @committed/auth-components
 
 # npm
 # install these if you don't have them already (npm 7+ will install them for you)
-npm install --save @material-ui/core @material-ui/icons @material-ui/lab @committed/auth-components
-npm install --save @committed/components
+npm install --save @material-ui/core @material-ui/icons @material-ui/lab @committed/components
+npm install --save @committed/auth-components
 ```
 
 ## Login Component
