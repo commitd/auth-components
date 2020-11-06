@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders story 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthSm"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-3 Styled(MuiBox)-root-1 Styled(MuiBox)-root-2"
+    >
+      <form
+        class="Component-root-6 Component-root-7 Component-root-4 Component-root-5"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-9 Styled(MuiBox)-root-1 Styled(MuiBox)-root-8"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root Component-root-10 Component-root-11 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+              for="email"
+              id="email-label"
+            >
+              Email Address
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiFilledInput-root makeStyles-root-12 MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="email"
+                class="MuiInputBase-input MuiFilledInput-input"
+                id="email"
+                name="email"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root MuiTextField-root Component-root-10 Component-root-17 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+              for="password"
+              id="password-label"
+            >
+              Password
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiFilledInput-root makeStyles-root-12 MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="current-password"
+                class="MuiInputBase-input MuiFilledInput-input"
+                id="password"
+                name="password"
+                required=""
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root MuiTextField-root Component-root-10 Component-root-18 MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+              for="confirm-password"
+              id="confirm-password-label"
+            >
+              Confirm Password
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiFilledInput-root makeStyles-root-12 MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="current-password"
+                class="MuiInputBase-input MuiFilledInput-input"
+                id="confirm-password"
+                name="confirm-password"
+                required=""
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root-19 Component-root-20 MuiButton-containedPrimary MuiButton-fullWidth"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
