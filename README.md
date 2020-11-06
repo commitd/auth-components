@@ -48,21 +48,24 @@ Accessibility is considered. `aria-label` and `aria-describedby` is used for pas
 ```
 import React from 'react'
 import { Login } from '@committed/auth-components'
+import { ThemeProvider } from '@committed/components'
 
-export const Default: React.FC = () => {
+export const MyLoginPage: React.FC = () => {
   const [email, setEmail] = React.useState('')
   const [password, setPassword] = React.useState('')
   return (
-    <Login
-      onChangeEmail={(e) => setEmail(e.target.value)}
-      onChangePassword={(e) => setPassword(e.target.value)}
-      email={email}
-      password={password}
-      onSignIn={() => {
-        # make a call using email and password e.g.
-        # login(username, password)
-      }}
-    />
+    <ThemeProvider>
+      <Login
+        onChangeEmail={(e) => setEmail(e.target.value)}
+        onChangePassword={(e) => setPassword(e.target.value)}
+        email={email}
+        password={password}
+        onSignIn={() => {
+          # make a call using email and password e.g.
+          # login(username, password)
+        }}
+      />
+    </ThemeProvider>
   )
 }
 ```
@@ -70,6 +73,38 @@ export const Default: React.FC = () => {
 The `passwordRules` prop optionally displays the password rules for easier sign in.
 
 The `errorMessage` prop can be used to display errors related to sign in.
+
+## Registration Component
+
+```
+import React from 'react'
+import { Login } from '@committed/auth-components'
+import { ThemeProvider } from '@committed/components'
+
+export const MyRegistrationPage: React.FC = () => {
+  const [email, setEmail] = React.useState('')
+  const [password, setPassword] = React.useState('')
+  const [confirmPassword, setConfirmPassword] = React.useState('')
+  return (
+    <ThemeProvider>
+      <Registration
+        email={email}
+        password={password}
+        confirmPassword={confirmPassword}
+        onChangeEmail={(e) => setEmail(e.target.value)}
+        onChangePassword={(e) => setPassword(e.target.value)}
+        onChangeConfirmPassword={(e) => setConfirmPassword(e.target.value)}
+        onSignUp={() => {
+          if (password === confirmPassword) {
+            # make a call using email and password e.g.
+            # registerUser(username, password)
+          }
+        }}
+      />
+    </ThemeProvider>
+  )
+}
+```
 
 ## Developing
 
