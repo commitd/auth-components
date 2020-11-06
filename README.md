@@ -1,21 +1,21 @@
-<h1 align="center"> TS Lib Template </h1>
+<h1 align="center"> Committed Auth Components </h1>
 <br>
 <p align="center">
   <img src="https://committed.software/Logo.svg" width="128px" alt="Project Logo"/>
 </p>
 <p align="center">
-  Committed ts lib project starter
+  Committed Auth Components
 </p>
 
 [![Committed Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fcommitted.software%2Fbadge)](https://committed.io)
-[![Build Status](https://drone.committed.software/api/badges/commitd/template-ts-lib/status.svg)](https://drone.committed.software/commitd/template-ts-lib)
-![GitHub repo size](https://img.shields.io/github/repo-size/commitd/template-ts-lib)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=io.committed.template-ts-lib%3Atemplate-ts-lib&metric=alert_status&token=0940622ec61c644fe85982cffa3d902a6b110d20)](https://sonarcloud.io/dashboard?id=io.committed.template-ts-lib%3Atemplate-ts-lib)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=io.committed.template-ts-lib%3Atemplate&metric=coverage&token=0940622ec61c644fe85982cffa3d902a6b110d20)](https://sonarcloud.io/dashboard?id=io.committed.template%3Atemplate-ts-lib)
+[![Build Status](https://drone.committed.software/api/badges/commitd/auth-components/status.svg)](https://drone.committed.software/commitd/auth-components)
+![GitHub repo size](https://img.shields.io/github/repo-size/commitd/auth-components)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=io.committed.auth-components%3Aauth-components&metric=alert_status&token=0940622ec61c644fe85982cffa3d902a6b110d20)](https://sonarcloud.io/dashboard?id=io.committed.auth-components%3Aauth-components)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=io.committed.auth-components%3Atemplate&metric=coverage&token=0940622ec61c644fe85982cffa3d902a6b110d20)](https://sonarcloud.io/dashboard?id=io.committed.template%3Aauth-components)
 
-The Template project aims to standardize the set up of Committed projects and ensure good practice. Best practice changes and improvements should be put back into the template through PRs. The main branch covers the standard Spring Boot server and React UI case.
+The project aims to provide all of the common React components commonly needed to support authentication.
 
-This template is bootstrapped with TSDX
+This project was bootstrapped with TSDX
 
 ## Commands
 

@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "@committed/template",
-  "description": "Committed TS Lib template",
+  "name": "@committed/auth-components",
+  "description": "Committed Auth Components",
   "author": "Committed",
   "license": "MIT",
   "private": false,
-  "repository": "git://github.com/commitd/components.git",
+  "repository": "git://github.com/commitd/auth-components.git",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {

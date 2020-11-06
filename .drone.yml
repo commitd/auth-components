@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 type: docker
-name: template
+name: auth-components
 
 steps:
   - name: npm_auth
@@ -63,7 +63,7 @@ steps:
       webhook:
         from_secret: slack_webhook
       template: >
-        :tada: New version ${DRONE_TAG} of `@committed/template` available
+        :tada: New version ${DRONE_TAG} of `@committed/auth-components` available
     when:
       ref:
         - refs/tags/v*
