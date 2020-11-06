@@ -40,7 +40,7 @@ export const Login: React.FC<LoginProps> = ({
   const [hidePassword, setHidePassword] = useState(true)
   return (
     <Container component="main" maxWidth="sm">
-      <Flex alignItems="center" flexDirection="column" mt={3}>
+      <Flex alignItems="center" flexDirection="column">
         {children}
         {errorMessage != null && errorMessage.length > 0 ? (
           <Box mb={3}>
